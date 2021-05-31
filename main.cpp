@@ -16,7 +16,7 @@ int main ()
     cout << "Diget size:" << hash.DigestSize() << endl;
     cout << "Block size:" << hash.BlockSize() << endl;
     fstream file;
-    string path = "/home/ilya/hash.txt";
+    string path = "/home/Artyom/hash.txt";
     string Message, file_contents, fc_message;
     file.open(path);
     if (!file.is_open()) {
